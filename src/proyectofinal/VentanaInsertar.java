@@ -70,8 +70,11 @@ public class VentanaInsertar extends javax.swing.JDialog {
 
         jButton1.setText("Comprobar valores de la tabla");
 
+        jTextArea1.setBackground(new java.awt.Color(51, 51, 51));
         jTextArea1.setColumns(20);
+        jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
         jTextArea1.setRows(5);
+        jTextArea1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         jScrollPane1.setViewportView(jTextArea1);
 
         jButton2.setText("Aplicar");
